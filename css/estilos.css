@@ -218,13 +218,13 @@ body{
 }
 
  .img-portfolio{
-    height: 180px;
-    width: 100%;
-    object-fit: cover;
-    object-position: left bottom;
-    transition: transform 500ms;
-    
-  }
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: left bottom;
+  transition: transform 500ms;
+  
+}
 
   /*.img-portfolio:hover{
     transform: scale(1.2) rotate(-2deg);
@@ -237,11 +237,11 @@ body{
 }
 
 .card{
-  height: 180px;
-  width: 100%;
   position: relative;
   transform-style:preserve-3d ;
   transition: transform 3s;
+  height: 240px;
+  width: 240px;
 }  
 
 .flip-card:hover .card{
